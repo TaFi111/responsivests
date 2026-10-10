@@ -1,3 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 772px) {
+  div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top; 
+  }
+
+  img {
+    max-height: 30vh;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  div {
+    width: 30%;
+  }
+}
 
 body {
     background-color: #dedede;
